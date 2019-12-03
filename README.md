@@ -9,14 +9,14 @@ Note that the Dockerfile does not copy the source code, therefore **you do not n
 every time there's a change to the source code**!
 ```bash
 $ git clone https://github.com/piotte13/cpp_docker_persistance_example.git
-$ cd cpp_docker_persistance_exemple
+$ cd cpp_docker_persistance_example
 
-$ docker build -t docker_persistance_exemple .
+$ docker build -t docker_persistance_example .
 ```
 
 
 Then, every time you want to run the program, run this command.  The source code will be mounted to 
 the docker container and the output files will be directly be sent to the host system.
 ```bash
-docker run --rm -it -v $(pwd):/project docker_persistance_exemple
+docker run --rm -it -v $(pwd):/project docker_persistance_example
 ```
