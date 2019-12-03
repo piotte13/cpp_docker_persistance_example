@@ -16,7 +16,7 @@ $ docker build -t docker_persistance_example .
 
 
 Then, every time you want to run the program, run this command.  The source code will be mounted to 
-the docker container and the output files will be directly be sent to the host system.
+the docker container and the output files will directly be sent to the host system.
 ```bash
 docker run --rm -it -v $(pwd):/project docker_persistance_example
 ```
