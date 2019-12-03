@@ -1,9 +1,11 @@
 #include <iostream>
 #include <fstream>
+#include <sys/stat.h>
 
 
 int main() {
     std::ofstream myfile;
+    mkdir("../artifacts", 0777);
     myfile.open ("../artifacts/example.txt");
     myfile << "Writing this to a file!\n";
 
