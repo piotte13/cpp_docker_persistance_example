@@ -8,7 +8,7 @@ First, build an image from the Dockerfile in the current directory and tag the i
 Note that the Dockerfile does not copy the source code, therefore **you do not need to rebuild the image
 every time there's a change to the source code**!
 ```bash
-$ git clone https://github.com/piotte13/cpp_docker_persistance_exemple.git
+$ git clone https://github.com/piotte13/cpp_docker_persistance_example.git
 $ cd cpp_docker_persistance_exemple
 
 $ docker build -t docker_persistance_exemple .
