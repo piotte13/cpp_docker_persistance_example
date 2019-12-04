@@ -1,7 +1,7 @@
 ## Ehh.. What is that?
 This is a simple c++ program that will output some text file to the folder `./artifacts`
 from a docker container.  The motivation is to demonstrate a simple solution to persistant data
-using Docker.
+when developping using Docker.
 
 ## Usage
 First, build an image from the Dockerfile in the current directory and tag the image.
